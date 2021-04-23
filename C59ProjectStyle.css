@@ -1,0 +1,80 @@
+body
+{
+background-color:yellow;
+text-align: center;
+}
+.menu
+{
+    list-style: none;
+    float: right;
+    font-style: italic;
+    font-weight: bold;
+    top : 10px;
+    right : 30px;
+    
+}
+.menu a
+{
+    color : lime;
+}
+
+.link
+{
+    display: inline-block;
+    padding-top:5px;
+    padding-left:9px;
+    padding-right:9px;
+    padding-bottom: 5px;
+    text-decoration:none;
+}
+.link:hover
+{
+    background-color : rgb(240, 8, 46);
+    cursor: pointer;
+}
+img
+{
+    /* text-align: center; */
+    width : 300px;
+    height : 300px;
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-top: 1%;
+    border-radius: 50%;
+
+}
+#welcome
+{
+    text-align: center;
+}
+html
+{
+    scroll-behavior: smooth;
+}
+p
+{
+    text-align : center;
+    color : rgb(245, 7, 46);
+    font-size : 25px;
+}
+h1
+{
+    text-align: center;
+    color : lime;
+}
+h2
+{
+    text-align:center;
+    color : lime;
+}
+iframe
+{
+    border-radius: 30%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+    text-align: center;
+    height : 50%;
+    width : 50%;
+}
